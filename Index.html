@@ -1,0 +1,127 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Equity Decoded</title>
+  <style>
+    :root {
+      --primary-color: #f4b942; /* Gold from logo */
+      --dark-bg: #0f1b2d; /* Trustworthy dark background */
+      --text-color: #ffffff;
+    }body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--dark-bg);
+  color: var(--text-color);
+}
+
+header {
+  background: var(--primary-color);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  height: 50px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--dark-bg);
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  animation: fadeInUp 1.5s ease-out;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 3rem 2rem;
+  animation: fadeIn 2s ease-in;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.feature-box {
+  background: #1c2d4a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #09121f;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="EquityDecoded_Website_Logo.png" alt="Equity Decoded Logo" />
+    <h1>Equity Decoded</h1>
+  </header>  <div class="hero">
+    <h2>Simplifying Stock Market for Everyone</h2>
+    <p>Your journey from ₹0 to ₹10 Lakhs begins here. Learn, invest, and grow with confidence.</p>
+  </div>  <section>
+    <h2 style="text-align: center;">Why Equity Decoded?</h2>
+    <div class="features">
+      <div class="feature-box">
+        <h3>Clear, No-Jargon Content</h3>
+        <p>We explain complex stock market concepts in a way even beginners can understand.</p>
+      </div>
+      <div class="feature-box">
+        <h3>India-Focused Insights</h3>
+        <p>Stay updated with analysis and trends on Nifty, Sensex, and more.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Proven Strategies</h3>
+        <p>Leverage data-backed tools like RSI, DMA, and ATR for smarter investing.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Journey-Based Learning</h3>
+        <p>Follow our series documenting the road to ₹10 Lakhs in real time.</p>
+      </div>
+    </div>
+  </section>  <footer>
+    &copy; 2025 Equity Decoded. All rights reserved. | Follow us @EquityDecoded
+  </footer>
+</body>
+</html>
